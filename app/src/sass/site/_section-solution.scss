@@ -1,7 +1,20 @@
 .solucao-trabalhista {
-  background-image: url('../src/img/banner3.png');
+  background-image: url('../img/banner3.png');
   color: white;
   
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  img {
+    position: relative;
+    right: 10px;
+  }
+
+  li {
+    list-style: none;
+  }
+
   h2 {
     font-family: 'Maven Pro', sans-serif;
     margin-bottom: 25px;
@@ -23,10 +36,12 @@
 
   h4 {
     font-family: 'Maven Pro', sans-serif;
+    position: relative;
+    right: 30px;
   }
 
   .line-y {
-    margin-top: 25px;
+    margin: 25px;
     border-left: 4px solid white;
     height: 400px;
   }

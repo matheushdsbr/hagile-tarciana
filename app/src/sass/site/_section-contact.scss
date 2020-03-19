@@ -27,11 +27,11 @@
   
 
   #formulario {
+    margin-top: 35px;
     .campo_nome {
       font-family: "Maven Pro", sans-serif;
       color: #41171b;
       background-color: #f3f3f3;
-      margin-right: 20px;
       margin-bottom: 20px;
       border: none;
       border-bottom: 1px solid #41171b;
@@ -41,15 +41,21 @@
       color: #41171b;
       background-color: #f3f3f3;
       border: none;
+      width: 100%;
+      margin-top: 8px;
+      height: 49px;
       border-bottom: 1px solid #41171b;
     }
     .campo_telefone {
       font-family: "Maven Pro", sans-serif;
       color: #41171b;
       background-color: #f3f3f3;
+      width: 100%;
       margin-right: 20px;
       margin-bottom: 20px;
       border: none;
+      margin-top: 8px;
+      height: 49px;
       border-bottom: 1px solid #41171b;
     }
     .campo_assunto {
