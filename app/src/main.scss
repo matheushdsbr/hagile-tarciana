@@ -54,12 +54,6 @@ footer {
   background-size: cover;
   height: 830px;
 
-  .ajuste {
-    position: relative;
-    height: 134px;
-    bottom: 15px;
-  }
-
   .nav-header {
     ul {
       display: flex;
@@ -113,27 +107,22 @@ footer {
 }
 
 .logo {
- position: relative;
- bottom: 20px;
  margin-left: 10px;
 }
 
 .logo-nome {
-  color: #6e5051;
-  position: relative;
-  bottom: 80px;
+  color: #6e5051; 
   margin-left: 10px;
-}
-
-.logo-nome h2 {
-  font-size: 1em;
-  letter-spacing: 3px;
-  font-weight: bold;
-}
-
-.logo-nome h3 {
-  font-size: 14px;
-  font-weight: bold;
+  h2, h3 {
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1em;
+    letter-spacing: 3px;
+  }
+  h3 {
+    font-size: 14px;
+  }
 }
 
 .container-consulta {
