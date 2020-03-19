@@ -1,0 +1,41 @@
+.sobre {
+  color: #41171b;
+  padding: 30px;
+  
+  .border-image {
+    img {
+      border: 3px solid #d5d4d4;
+      padding: 15px;
+    }
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .border-layer {
+    width: 419px;
+    height: 513px;
+    background-color: #41171b;
+    z-index: -1;
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+  }
+
+}
+
+.text-sobre {
+  margin-top: 120px;
+}
+
+.title-sobre {
+  border-bottom: 1px solid #41171b;
+  max-width: 120px;
+}
+
+.border-sobre {
+  border-bottom: 1px solid #41171b;
+  max-width: 140px;
+  margin-bottom: 10px;
+}

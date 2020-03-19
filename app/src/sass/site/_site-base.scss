@@ -5,10 +5,17 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+
 body{
-    background-color: brown;
+    font-family: 'Maven Pro', sans-serif;
 }
 
+.border-line {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+}
+  
 .wrapper {
     min-height: 100vh;
     position: relative;

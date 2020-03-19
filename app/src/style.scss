@@ -1,3 +1,6 @@
+// Bootstrap
+@import '../../node_modules/bootstrap/dist/css/bootstrap';
+
 @import 'sass/modules/variables';
 @import 'sass/modules/buttons';
 @import 'sass/modules/colors';
@@ -12,4 +15,8 @@
 @import 'sass/site/site-header';
 @import 'sass/site/site-nav';
 @import 'sass/site/site-sidebar';
-@import 'main';
+@import 'sass/site/section-about';
+@import 'sass/site/section-consult';
+@import 'sass/site/section-contact';
+@import 'sass/site/section-service';
+@import 'sass/site/section-solution';

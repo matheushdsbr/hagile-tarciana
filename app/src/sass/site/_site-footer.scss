@@ -6,13 +6,15 @@
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 
-.footer {
-    background-color: rgb(243, 243, 243);
-    position: absolute;
-    bottom: 0;
-    height: 120px; // Height do footer, ajustar no _site-base.scss
-    width: 100%;
-}
+footer {
+    background-color: #41171b;
+    color: white;
+    p {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 
