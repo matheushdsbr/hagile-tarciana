@@ -5,18 +5,26 @@
     font-weight: bold;
   }
 
-  .borda-contato {
-    background-image: url("../src/img/banner4.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
+  
+   
     .info {
-      padding: 10px;
+      background-image: url("../img/banner4.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: white;
+      margin-top: 50px;
+      padding: 25px;
+      margin-bottom: 30px;
+
+      .border-gray {
+        border: 2px solid gray;
+        padding: 30px;
+      }
     }
-  }
+  
 
   #formulario {
     .campo_nome {
