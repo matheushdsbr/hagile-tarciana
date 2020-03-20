@@ -35,6 +35,7 @@
       font-weight: 700;
       text-decoration: none;
       border-bottom: 1px solid transparent;
+      font-size: 20px;
       &:hover {
         border-bottom: 1px solid #41171b;
       }
@@ -79,6 +80,11 @@
   padding: 15px 0;
 }
 
+.adjust-image-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .logo-nome {
   margin-top: 25px;
   color: #6e5051;
@@ -87,11 +93,11 @@
     font-weight: bold;
   }
   h2 {
-    font-size: 1em;
+    font-size: 23px;
     letter-spacing: 3px;
   }
   h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
