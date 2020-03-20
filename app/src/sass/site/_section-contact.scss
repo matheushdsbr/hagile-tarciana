@@ -5,26 +5,31 @@
     font-weight: bold;
   }
 
-  
-   
-    .info {
-      background-image: url("../img/banner4.png");
-      background-repeat: no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      color: white;
-      margin-top: 50px;
-      padding: 25px;
-      margin-bottom: 30px;
+  .info {
+    background-image: url("../img/banner4.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-      .border-gray {
-        border: 2px solid gray;
-        padding: 30px;
+    margin-top: 50px;
+    padding: 25px;
+    margin-bottom: 30px;
+
+    .border-gray {
+      border: 2px solid gray;
+      padding: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        color: $white;
+        border-bottom: 1px solid $white;
       }
     }
-  
+  }
 
   #formulario {
     margin-top: 35px;

@@ -8409,13 +8409,17 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
   margin-top: 50px;
   padding: 25px;
   margin-bottom: 30px; }
   .contact .info .border-gray {
     border: 2px solid gray;
     padding: 30px; }
+  .contact .info a {
+    text-decoration: none; }
+    .contact .info a:hover {
+      color: #FFF;
+      border-bottom: 1px solid #FFF; }
 
 .contact #formulario {
   margin-top: 35px; }
