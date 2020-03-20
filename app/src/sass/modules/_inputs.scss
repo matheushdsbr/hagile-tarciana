@@ -6,16 +6,37 @@
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  color: #41171b;
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: 1px solid #41171b;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: block;
 }
-input[type="text"]:focus {
-  background-color: rgb(243, 243, 243);
-  border: 1px solid #555;
+
+#formulario {
+  margin-top: 10px;
+
+  .btn_submit {
+    background-color: #41171b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 45px;
+    &:hover {
+      border: 1px solid #41171b;
+      background-color: white;
+      color: #41171b;
+      font-weight: bold;
+    }
+  }
 }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
