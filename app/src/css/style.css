@@ -8178,10 +8178,6 @@ textarea {
   margin-bottom: 10px;
   display: block; }
 
-input[type="text"]:focus {
-  background-color: #f3f3f3;
-  border: 1px solid #555; }
-
 #formulario {
   margin-top: 10px; }
   #formulario .btn_submit {
@@ -8232,7 +8228,14 @@ input[type="text"]:focus {
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
 body {
-  font-family: 'Maven Pro', sans-serif; }
+  font-family: "Maven Pro", sans-serif; }
+
+.width-100 {
+  width: 100%; }
+
+.reset {
+  margin: 0;
+  padding: 0; }
 
 .border-line {
   text-align: center;
@@ -8325,7 +8328,7 @@ footer {
         color: #41171b; }
 
 .adjust-padding {
-  padding: 10px; }
+  padding: 15px 0; }
 
 .logo-nome {
   margin-top: 25px;
@@ -8446,7 +8449,7 @@ footer {
   display: flex;
   align-items: flex-end; }
   .services h2 {
-    font-family: 'Maven Pro', sans-serif; }
+    font-family: "Maven Pro", sans-serif; }
 
 .service-text1 {
   padding: 35px;
@@ -8454,8 +8457,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; }
-  .service-text1 p, .service-text1 a {
-    font-family: 'Maven Pro', sans-serif; }
+  .service-text1 p,
+  .service-text1 a {
+    font-family: "Maven Pro", sans-serif; }
   .service-text1 button {
     background-color: white;
     padding: 10px 30px;
@@ -8466,7 +8470,7 @@ footer {
 
 .box {
   color: #41171b;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -8484,10 +8488,6 @@ footer {
     min-height: 100%;
     min-width: 100%;
     position: absolute; }
-
-.reset {
-  margin: 0;
-  padding: 0; }
 
 .solucao-trabalhista {
   background-image: url("../img/banner3.png");

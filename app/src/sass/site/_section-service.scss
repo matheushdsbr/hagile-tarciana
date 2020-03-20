@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-end;
   h2 {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
   }
 }
 
@@ -13,10 +13,11 @@
   justify-content: center;
   align-items: flex-start;
 
-  p, a{
-    font-family: 'Maven Pro', sans-serif ;
+  p,
+  a {
+    font-family: "Maven Pro", sans-serif;
   }
-  
+
   button {
     background-color: white;
     padding: 10px 30px;
@@ -30,7 +31,7 @@
 
 .box {
   color: #41171b;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -42,7 +43,7 @@
 }
 
 .banner2 {
-  background-image: url('../img/banner2.png');
+  background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
   padding: 50px;
 
@@ -53,9 +54,4 @@
       position: absolute;
     }
   }
-}
-
-.reset {
-margin: 0;
-padding: 0;
 }
