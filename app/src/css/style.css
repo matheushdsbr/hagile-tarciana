@@ -8238,9 +8238,9 @@ body {
   padding: 0; }
 
 .border-line {
-  text-align: center;
-  margin: 40px;
-  padding: 20px; }
+  margin: 60px 0; }
+  .border-line img {
+    width: 100%; }
 
 .wrapper {
   min-height: 100vh;
