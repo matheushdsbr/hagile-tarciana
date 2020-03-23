@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-end;
   h2 {
+    font-size: 45px;
     font-family: "Maven Pro", sans-serif;
   }
 }
@@ -30,7 +31,6 @@
 }
 
 .box {
-  color: #41171b;
   font-family: "Maven Pro", sans-serif;
   text-align: center;
   font-weight: bold;
@@ -42,7 +42,7 @@
   height: 200px;
 }
 
-.banner2 {
+.service-banner {
   background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
   padding: 50px;

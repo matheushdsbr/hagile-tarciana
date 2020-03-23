@@ -5,11 +5,30 @@
  */
 
 // COLORS ---------------------------------------------------------------------
-.black {color: $black}
-.white {color: $white}
+.black {
+  color: $black;
+}
+.white {
+  color: $white;
+}
+.wine {
+  color: $wine;
+}
 
 // BACKGROUNDS ----------------------------------------------------------------
-.bg-black {background-color: $black}
-.bg-white {background-color: $white}
-.bg-gray {background-color: $gray}
-.bg-weak {background-color: $weak}
+.bg-black {
+  background-color: $black;
+}
+.bg-white {
+  background-color: $white;
+}
+.bg-gray {
+  background-color: $gray;
+}
+.bg-weak {
+  background-color: $weak;
+}
+
+.bg-wine {
+  background-image: url("../img/banner.png");
+}
