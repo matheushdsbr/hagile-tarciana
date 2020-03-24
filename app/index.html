@@ -29,20 +29,41 @@
   
           </div>
           <div class="col-md-4 offset-md-4">
-            <nav class="nav-header">
+            <!-- <nav class="nav-header">
               <ul>
                 <li><a href="javascript:;">HOME</a></li>
                 <li><a href="javascript:;">SOBRE</a></li>
                 <li><a href="javascript:;">SERVIÇOS</a></li>
                 <li><a href="javascript:;">CONTATO</a></li>
               </ul>
-            </nav>
+            </nav> -->
           </div>
         </div>
       </div>
       </div>
-  </header>
-
+  </header> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <section class="header">
     <div class="container">
       <div class="row ">
@@ -108,17 +129,22 @@
   <section class="sobre">
     <div class="container">
       <div class="row services-border">
-        <div class="col-md-6">
-          <h1 class="title-sobre">SOBRE</h1>
-          <div class="border-image"><img src="src/img/layer2.png"></div>
-          <div class="border-layer"></div>
+        <div class="col-12">
+          <span class="title-sobre">SOBRE</span>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6 offset-sm-3 col-md-4">
+          
+          <div class="border-image">
+            <img src="src/img/layer2.png">
+            <div class="border-layer"></div>
+          </div>
+        </div>
+        <div class="col-md-6 offset-md-2">
           <div class="text-sobre">
-            <p><img src="src/img/icon-aspas.png"> &nbsp;There are manu variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            <p class="font-weight-bold"><img src="src/img/icon-aspas.png"> &nbsp;There are manu variations of passages of Lorem Ipsum available, but the majority have suffered alteration
               in
               some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+            <p class="font-weight-bold">It is a long established fact that a reader will be distracted by the readable content of a page when
               looking
               at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
               letters,
@@ -215,7 +241,7 @@
             </form>
           </div>
         </div>
-        <div class="col-md-5 offset-1">
+        <div class="col-md-5 offset-md-1 mt-3">
           <div class="info white">
             <div class="border-gray">
             <h5>INFORMAÇÕES</h5>
