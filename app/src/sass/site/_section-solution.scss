@@ -15,10 +15,6 @@
     margin-bottom: 50px;
   }
 
-  li {
-    list-style: none;
-  }
-
   h2 {
     margin-bottom: 25px;
     margin-top: 50px;
@@ -32,7 +28,8 @@
     border: 1px solid white;
   }
 
-  .line {
+  .content-button {
+    text-align: center;
   }
 }
 
@@ -52,6 +49,9 @@
     }
     h2 {
       margin-top: 100px;
+    }
+    .content-button {
+      text-align: initial;
     }
   }
 }

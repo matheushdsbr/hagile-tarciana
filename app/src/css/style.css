@@ -8518,8 +8518,6 @@ header .nav-header {
   .solucao-trabalhista .margin-top {
     margin-top: 50px;
     margin-bottom: 50px; }
-  .solucao-trabalhista li {
-    list-style: none; }
   .solucao-trabalhista h2 {
     margin-bottom: 25px;
     margin-top: 50px;
@@ -8529,6 +8527,8 @@ header .nav-header {
     border-radius: 4px;
     padding: 10px 25px;
     border: 1px solid white; }
+  .solucao-trabalhista .content-button {
+    text-align: center; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -8539,6 +8539,8 @@ header .nav-header {
     border-left: 4px solid white;
     height: 400px; }
   .solucao-trabalhista h2 {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  .solucao-trabalhista .content-button {
+    text-align: initial; } }
 
 /* Large devices (large desktops, 1200px and up) */
