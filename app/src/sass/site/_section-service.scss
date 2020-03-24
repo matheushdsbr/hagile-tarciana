@@ -1,57 +1,48 @@
+/*
+ * 
+ * Site > Services
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+
 .services {
-  display: flex;
-  align-items: flex-end;
-  h2 {
-    font-size: 45px;
-    font-family: "Maven Pro", sans-serif;
-  }
-}
-
-.service-text1 {
-  padding: 35px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-
-  p,
-  a {
-    font-family: "Maven Pro", sans-serif;
-  }
-
-  button {
-    background-color: white;
-    padding: 10px 30px;
-    border: none;
-    a {
-      color: #41171b;
-      font-weight: bold;
-    }
-  }
-}
-
-.box {
-  font-family: "Maven Pro", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 30px;
-  height: 200px;
-}
-
-.service-banner {
-  background-image: url("../img/banner2.png");
-  background-repeat: no-repeat;
+  background: url("../img/banner2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 50px 0px 80px 0px;
 
-  .img-layer {
-    img {
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
+  .section-title {
+    display: flex;
+    align-items: flex-end;
+    h2 {
+      font-size: 45px;
     }
   }
+  .box {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 200px;
+  }
+}
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
 }
