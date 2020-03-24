@@ -11,6 +11,25 @@
   background-color: #41171b;
 }
 header {
+  img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo-nome {
+    margin-top: 20px;
+    color: #6e5051;
+    h2,
+    h3 {
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 23px;
+      letter-spacing: 3px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
   .nav-header {
     margin-top: 30px;
     ul {
@@ -74,27 +93,6 @@ header {
         color: #41171b;
       }
     }
-  }
-}
-
-.adjust-image-logo {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.logo-nome {
-  margin-top: 25px;
-  color: #6e5051;
-  h2,
-  h3 {
-    font-weight: bold;
-  }
-  h2 {
-    font-size: 23px;
-    letter-spacing: 3px;
-  }
-  h3 {
-    font-size: 16px;
   }
 }
 

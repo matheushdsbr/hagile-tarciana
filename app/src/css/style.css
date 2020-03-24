@@ -8287,6 +8287,22 @@ footer {
   height: 18px;
   background-color: #41171b; }
 
+header img {
+  display: flex;
+  justify-content: flex-end; }
+
+header .logo-nome {
+  margin-top: 20px;
+  color: #6e5051; }
+  header .logo-nome h2,
+  header .logo-nome h3 {
+    font-weight: bold; }
+  header .logo-nome h2 {
+    font-size: 23px;
+    letter-spacing: 3px; }
+  header .logo-nome h3 {
+    font-size: 16px; }
+
 header .nav-header {
   margin-top: 30px; }
   header .nav-header ul {
@@ -8334,22 +8350,6 @@ header .nav-header {
       top: 10px; }
       .header .header-content button a {
         color: #41171b; }
-
-.adjust-image-logo {
-  display: flex;
-  justify-content: flex-end; }
-
-.logo-nome {
-  margin-top: 25px;
-  color: #6e5051; }
-  .logo-nome h2,
-  .logo-nome h3 {
-    font-weight: bold; }
-  .logo-nome h2 {
-    font-size: 23px;
-    letter-spacing: 3px; }
-  .logo-nome h3 {
-    font-size: 16px; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -8492,7 +8492,7 @@ header .nav-header {
 .service-banner {
   background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
-  padding: 50px; }
+  padding: 50px 0px 80px 0px; }
   .service-banner .img-layer img {
     min-height: 100%;
     min-width: 100%;
