@@ -7,19 +7,10 @@
 /* MOBILE STYLES ------------------------------------------------------------*/
 .container-color {
   width: 100%;
-  height: 32px;
+  height: 18px;
   background-color: #41171b;
 }
-
-.header {
-  background-repeat: no-repeat;
-  background: url("../img/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 830px;
-
+header {
   .nav-header {
     margin-top: 30px;
     ul {
@@ -41,6 +32,16 @@
       }
     }
   }
+}
+
+.header {
+  background-repeat: no-repeat;
+  background: url("../img/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
 
   .header-content {
     color: white;
@@ -74,10 +75,6 @@
       }
     }
   }
-}
-
-.adjust-padding {
-  padding: 15px 0;
 }
 
 .adjust-image-logo {
