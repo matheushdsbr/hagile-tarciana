@@ -7,28 +7,26 @@
 /* MOBILE STYLES ------------------------------------------------------------*/
 
 footer {
-    background-color: #41171b;
-    color: white;
-    p {
-      margin-top: 10px;
-      display: flex;
-      justify-content: center;
-    }
+  background-color: #41171b;
+  color: white;
+  p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center; /* RETIRAR NO DESKTOP */
   }
+}
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
-
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
-
 }

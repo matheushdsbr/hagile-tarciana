@@ -11,7 +11,8 @@
   color: white;
 
   .margin-top {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   img {
@@ -24,9 +25,8 @@
   }
 
   h2 {
-    font-family: "Maven Pro", sans-serif;
     margin-bottom: 25px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 30pt;
   }
 
@@ -35,19 +35,14 @@
     border-radius: 4px;
     padding: 10px 25px;
     border: 1px solid white;
-    background-color: transparent;
   }
 
   h4 {
-    font-family: "Maven Pro", sans-serif;
     position: relative;
     right: 30px;
   }
 
-  .line-y {
-    margin: 25px;
-    border-left: 4px solid white;
-    height: 400px;
+  .line {
   }
 }
 
@@ -59,6 +54,16 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .solucao-trabalhista {
+    .line {
+      margin: 25px;
+      border-left: 4px solid white;
+      height: 400px;
+    }
+    h2 {
+      margin-top: 100px;
+    }
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
