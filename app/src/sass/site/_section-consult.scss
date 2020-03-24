@@ -5,12 +5,12 @@
 }
 
 .texto-agendar-consulta {
-  
-  h2, p {
+  h2,
+  p {
     color: #2e2828;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
   }
-  
+
   h2 {
     font-size: 2em;
     font-weight: 700;
@@ -23,15 +23,7 @@
 }
 
 .agendar-consulta {
-  
-  button{
-    background: #41171b;
-    padding: 25px 45px;
-    border: none;
-  }
-
   a {
-    font-family: 'Maven Pro', sans-serif;
-    color: white;
+    padding: 25px 45px;
   }
 }

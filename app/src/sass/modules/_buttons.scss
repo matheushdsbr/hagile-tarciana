@@ -3,15 +3,41 @@
  * Modules > Buttons
  * 
  */
-
 .button {
-    background-color: $black;
-    border: none;
+  border: none;
+  text-align: center;
+  display: inline-block;
+
+  background-color: $white;
+  color: $wine;
+  font-size: 16px;
+
+  &:hover {
+    color: $wine;
+  }
+
+  &.inverted {
+    background-color: $wine;
     color: $white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
+  }
+}
+/*
+ * 
+ * Form > Buttons
+ * 
+ */
+#formulario {
+  .btn_submit {
+    background-color: #41171b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 45px;
+    &:hover {
+      border: 1px solid #41171b;
+      background-color: white;
+      color: #41171b;
+      font-weight: bold;
+    }
+  }
 }

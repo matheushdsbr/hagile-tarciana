@@ -21,13 +21,5 @@
       border: 2px solid gray;
       padding: 30px;
     }
-
-    a {
-      text-decoration: none;
-      &:hover {
-        color: $white;
-        border-bottom: 1px solid $white;
-      }
-    }
   }
 }

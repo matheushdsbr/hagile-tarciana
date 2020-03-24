@@ -38,7 +38,6 @@ header {
         list-style: none;
       }
     }
-
     a {
       padding: 12px;
       color: #6e5051;
@@ -60,39 +59,29 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 800px;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white;
 
-  .header-content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin-top: 150px;
+  .header-content-position {
+    margin-bottom: 250px;
+  }
 
-    h1 {
-      font-size: 45pt;
-      font-family: "Maven Pro", sans-serif;
-    }
+  h1 {
+    font-size: 45pt;
+    font-family: "Maven Pro", sans-serif;
+  }
 
-    p {
-      width: 75%;
-      font-size: 12pt;
-      font-family: "Maven Pro", sans-serif;
-    }
+  p {
+    width: 75%;
+    font-size: 12pt;
+    font-family: "Maven Pro", sans-serif;
+  }
 
-    button {
-      border: none;
-      color: #41171b;
-      background-color: white;
-      padding: 10px 15px;
-      font-weight: bold;
-      position: relative;
-      top: 10px;
-
-      a {
-        color: #41171b;
-      }
-    }
+  a {
+    padding: 10px 15px;
+    font-weight: bold;
   }
 }
 

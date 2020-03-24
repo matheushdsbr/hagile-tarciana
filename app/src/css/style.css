@@ -8120,15 +8120,34 @@ a.text-dark:hover, a.text-dark:focus {
  * 
  */
 .button {
-  background-color: #000;
   border: none;
-  color: #fff;
-  padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  border-radius: 5px; }
+  background-color: #fff;
+  color: #41171b;
+  font-size: 16px; }
+  .button:hover {
+    color: #41171b; }
+  .button.inverted {
+    background-color: #41171b;
+    color: #fff; }
+
+/*
+ * 
+ * Form > Buttons
+ * 
+ */
+#formulario .btn_submit {
+  background-color: #41171b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 45px; }
+  #formulario .btn_submit:hover {
+    border: 1px solid #41171b;
+    background-color: white;
+    color: #41171b;
+    font-weight: bold; }
 
 /*
  * 
@@ -8183,20 +8202,6 @@ textarea {
   padding: 10px 15px;
   margin-bottom: 10px;
   display: block; }
-
-#formulario {
-  margin-top: 10px; }
-  #formulario .btn_submit {
-    background-color: #41171b;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 8px 45px; }
-    #formulario .btn_submit:hover {
-      border: 1px solid #41171b;
-      background-color: white;
-      color: #41171b;
-      font-weight: bold; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -8326,30 +8331,22 @@ header .nav-header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 800px; }
-  .header .header-content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin-top: 150px; }
-    .header .header-content h1 {
-      font-size: 45pt;
-      font-family: "Maven Pro", sans-serif; }
-    .header .header-content p {
-      width: 75%;
-      font-size: 12pt;
-      font-family: "Maven Pro", sans-serif; }
-    .header .header-content button {
-      border: none;
-      color: #41171b;
-      background-color: white;
-      padding: 10px 15px;
-      font-weight: bold;
-      position: relative;
-      top: 10px; }
-      .header .header-content button a {
-        color: #41171b; }
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white; }
+  .header .header-content-position {
+    margin-bottom: 250px; }
+  .header h1 {
+    font-size: 45pt;
+    font-family: "Maven Pro", sans-serif; }
+  .header p {
+    width: 75%;
+    font-size: 12pt;
+    font-family: "Maven Pro", sans-serif; }
+  .header a {
+    padding: 10px 15px;
+    font-weight: bold; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -8409,9 +8406,10 @@ header .nav-header {
   display: flex;
   flex-wrap: wrap; }
 
-.texto-agendar-consulta h2, .texto-agendar-consulta p {
+.texto-agendar-consulta h2,
+.texto-agendar-consulta p {
   color: #2e2828;
-  font-family: 'Maven Pro', sans-serif; }
+  font-family: "Maven Pro", sans-serif; }
 
 .texto-agendar-consulta h2 {
   font-size: 2em;
@@ -8421,14 +8419,8 @@ header .nav-header {
   font-size: 1em;
   font-weight: 700; }
 
-.agendar-consulta button {
-  background: #41171b;
-  padding: 25px 45px;
-  border: none; }
-
 .agendar-consulta a {
-  font-family: 'Maven Pro', sans-serif;
-  color: white; }
+  padding: 25px 45px; }
 
 .contact h2 {
   color: #41171b;
@@ -8448,11 +8440,6 @@ header .nav-header {
   .contact .info .border-gray {
     border: 2px solid gray;
     padding: 30px; }
-  .contact .info a {
-    text-decoration: none; }
-    .contact .info a:hover {
-      color: #fff;
-      border-bottom: 1px solid #fff; }
 
 .services {
   display: flex;
@@ -8509,21 +8496,18 @@ header .nav-header {
   .solucao-trabalhista li {
     list-style: none; }
   .solucao-trabalhista h2 {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
     margin-bottom: 25px;
     margin-top: 100px;
     font-size: 30pt; }
-  .solucao-trabalhista button {
+  .solucao-trabalhista a {
     border: none;
     border-radius: 4px;
     padding: 10px 25px;
     border: 1px solid white;
     background-color: transparent; }
-    .solucao-trabalhista button a {
-      color: white;
-      font-family: 'Maven Pro', sans-serif; }
   .solucao-trabalhista h4 {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
     position: relative;
     right: 30px; }
   .solucao-trabalhista .line-y {

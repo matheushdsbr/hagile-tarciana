@@ -21,24 +21,6 @@ textarea {
   display: block;
 }
 
-#formulario {
-  margin-top: 10px;
-
-  .btn_submit {
-    background-color: #41171b;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 8px 45px;
-    &:hover {
-      border: 1px solid #41171b;
-      background-color: white;
-      color: #41171b;
-      font-weight: bold;
-    }
-  }
-}
-
 /* MEDIA QUERY ------------------------------------------------------------*/
 
 /* Small devices (tablets, 768px and up) */
