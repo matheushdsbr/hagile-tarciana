@@ -1,3 +1,11 @@
+/*
+ * 
+ * Site > About
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+
 .container-consulta {
   width: 100%;
   display: flex;
@@ -25,5 +33,21 @@
 .agendar-consulta {
   a {
     padding: 25px 45px;
+    display: flex;
+    justify-content: center;
   }
+}
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
 }
