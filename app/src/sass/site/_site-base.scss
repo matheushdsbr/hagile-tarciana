@@ -42,6 +42,10 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .vertical-center {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
