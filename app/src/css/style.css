@@ -8301,13 +8301,13 @@ header img {
 header .logo-nome {
   margin-top: 20px;
   color: #6e5051; }
-  header .logo-nome h2,
-  header .logo-nome h3 {
-    font-weight: bold; }
+  header .logo-nome h1,
   header .logo-nome h2 {
+    font-weight: bold; }
+  header .logo-nome h1 {
     font-size: 23px;
     letter-spacing: 3px; }
-  header .logo-nome h3 {
+  header .logo-nome h2 {
     font-size: 16px; }
 
 header .nav-header {
@@ -8340,11 +8340,10 @@ header .nav-header {
   .header .header-content-position {
     margin-bottom: 250px; }
   .header h1 {
-    font-size: 45pt;
+    font-size: 60px;
     font-family: "Maven Pro", sans-serif; }
   .header p {
     width: 75%;
-    font-size: 12pt;
     font-family: "Maven Pro", sans-serif; }
   .header a {
     padding: 10px 15px;
@@ -8385,6 +8384,8 @@ header .nav-header {
   padding: 30px;
   margin-bottom: -45px;
   /* 0px DESKTOP */ }
+  .sobre h2 {
+    font-size: 20px; }
   .sobre span {
     font-size: 40px; }
   .sobre .border-image {

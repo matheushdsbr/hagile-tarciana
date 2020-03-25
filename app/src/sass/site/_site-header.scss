@@ -18,15 +18,15 @@ header {
   .logo-nome {
     margin-top: 20px;
     color: #6e5051;
-    h2,
-    h3 {
+    h1,
+    h2 {
       font-weight: bold;
     }
-    h2 {
+    h1 {
       font-size: 23px;
       letter-spacing: 3px;
     }
-    h3 {
+    h2 {
       font-size: 16px;
     }
   }
@@ -69,13 +69,12 @@ header {
   }
 
   h1 {
-    font-size: 45pt;
+    font-size: 60px;
     font-family: "Maven Pro", sans-serif;
   }
 
   p {
     width: 75%;
-    font-size: 12pt;
     font-family: "Maven Pro", sans-serif;
   }
 
