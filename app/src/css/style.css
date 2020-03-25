@@ -8473,6 +8473,9 @@ header .nav-header {
   .contact .info .border-gray {
     border: 2px solid gray;
     padding: 30px; }
+  .contact .info a:hover {
+    color: #fff;
+    text-decoration: underline; }
 
 /*
  * 
