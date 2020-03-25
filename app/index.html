@@ -4,61 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONT STYLES -->
+  <link rel="stylesheet" href="src/css/bootstrap.css">
   <link rel="stylesheet" href="src/css/style.css">
+  <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <title>Advocacia e Consultoria Jurídica - Tarciana Figueredo</title>
 </head>
 
 <body>
-  <div class="container-color"></div>
+  <div class="container-fluid border-wine">
+    <nav class="navbar navbar-expand-lg navbar-light mx-md-3">
+        <a class="navbar-brand" href="#">
+            <img src="src/img/logo-tarciana.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <header>
-    <div class="py-3">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-4 col-sm-2 col-md-1">
-              <img src="src/img/logo.png">
-          </div>
-          <div class="col-8 col-sm-10 col-md-3">
-            <div class="logo-nome">
-              <h1>TARCIANA FIGUEIREDO</h1>
-              <h2>Advocacia e Consultoria Jurídica</h2>
-            </div>
-          </div>
-          <div class="col-md-4 offset-md-4">
-           <div class="vertical-center">
-            <nav class="nav-header navbar navbar-expand-lg">
-              <button class="navbar-toggler button bg-inverted" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">SOBRE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">SERVIÇOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTATO</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-           </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto nav-header align-items-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SOBRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVIÇOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTATO</a>
+              </li>
+            </ul>
         </div>
-      </div>
-      </div>
-  </header> 
-
- 
-
+    </nav>
+</div>
   <section class="header">
     <div class="container">
       <div class="row ">
@@ -89,33 +74,33 @@
 
   <div class="services">
     <div class="container">
-      <div class="row">
-        
+      <div class="row justify-content-md-center">
         <div class="col-md-12 white section-title">
           <h2>Serviços</h2>
         </div>
-    
-        <div class="col-md-3 reset">
+        <div class="col-md-4 m-md-0 p-md-0">
           <div class="box bg-white wine"><img src="src/img/icon-analise e elaboracao de contrato.png">Analise e Elaboração
             de
             Contratos</div>
         </div>
     
-        <div class="col-md-3 reset">
+        <div class="col-md-4 m-md-0 p-md-0">
           <div class="box bg-weak wine"><img src="src/img/icon-treinamentos.png">Treinamentos</div>
         </div>
-        
-        <div class="col-md-3 reset">
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4 m-md-0 p-md-0">
+          <div class="box white bg-img-wine"><img src="src/img/icon-recuperacao de credito.png">
+            Recuperação de Créditos</div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4 m-md-0 p-md-0">
           <div class="box bg-white wine"><img src="src/img/icon-auditoria.png">Auditoria</div>
         </div>
-    
-        <div class="col-md-3 reset">
+        
+        <div class="col-md-4 m-md-0 p-md-0">
           <div class="box bg-weak wine"><img src="src/img/icon-consultoria.png">Consultoria</div>
-        </div>
-    
-        <div class="col-md-12 reset bg-img-wine">
-          <div class="box white"><img src="src/img/icon-recuperacao de credito.png">
-            Recuperação de Créditos</div>
         </div>
       </div>
     </div>
@@ -135,7 +120,7 @@
         </div>
         <div class="col-md-6 offset-md-2">
           <div class="text-sobre">
-            <p class="font-weight-bold"><img src="src/img/icon-aspas.png"> &nbsp;There are manu variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            <p class="font-weight-bold"><i class="fas fa-quote-left"></i> &nbsp;There are manu variations of passages of Lorem Ipsum available, but the majority have suffered alteration
               in
               some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             <p class="font-weight-bold">It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -147,10 +132,9 @@
               publishing
               packages and web page editors now use Lorem Ipsum as their default model text</p>
             <div class="border-sobre"></div>
-            <div>
-              <h1>TARCIANA FIGUEREIDO</h1>
-              <h2>CONSULTORIA DE EMPRESAS</h2>
-              <h2>DESDE ADMISSÃO À DEMISSÃO</h2>
+            <div class="text-footer">
+              <h2 class="font-weight-bold mb-0">TARCIANA FIGUEREIDO</h2>
+              <h6>CONSULTORIA DE EMPRESAS<br>DESDE ADMISSÃO À DEMISSÃO</h6>
             </div>
           </div>
         </div>
@@ -168,33 +152,27 @@
 
   <section class="solucao-trabalhista">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <h2>Tenha a melhor solução para a sua causa trabalhista:</h2>
-          <div class="content-button">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-4 text-md-left text-center">
+          <h2 class="pr-3 mb-3">Tenha a melhor solução para a sua causa trabalhista:</h2>
             <a class="button inverted" href="javascript:;">CONTATO</a>
-          </div>
-        </div>
-        
-        <div class="col-md-1 offset-md-1">
-          <div class="line"></div>
         </div>
 
-        <div class="col-md-4 margin-top">
-          <ul class="reset list-unstyled">
+        <div class="col-md-4 border-white">
+          <ul class="reset list-unstyled py-4 ml-2">
             <li>
-              <h4><img src="src/img/icon-check.png"> Ética e Seriedade</h4>
+              <h4><i class="far fa-check-square"></i> Ética e Seriedade</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's.</p>
             </li>
             <li>
-              <h4><img src="src/img/icon-check.png"> Alto índice de Sucesso</h4>
+              <h4><i class="far fa-check-square"></i> Alto índice de Sucesso</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's.</p>
             </li>
             <li>
-              <h4><img src="src/img/icon-check.png"> Pagamento diferenciado</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              <h4><i class="far fa-check-square"></i> Pagamento diferenciado</h4>
+              <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's.</p>
             </li>
           </ul>
@@ -245,12 +223,12 @@
           <div class="info white">
             <div class="border-gray">
             <h5>INFORMAÇÕES</h5>
-            <p><img src="src/img/icon-phone.png"> &nbsp;<a class="white" href="tel:81983358295">(81) 98335-8295</a></p>
-            <p><img src="src/img/icon-email.png"> &nbsp;<a class="white" href="mailto:tarciana.figueireddo@gmail.com">tarciana.figueireddo@gmail.com</a></p>
-            <p><img src="src/img/icon-insta.png"> &nbsp;<a class="white" href="https://www.instagram.com/tarciana.figueiredo/">@tarciana.figueiredo</a> / <a class="white" href="https://www.instagram.com/tfadvconsultoria/">@tfadvconsultoria</a></p>
-            <p><img src="src/img/icon-face.png"> &nbsp;<a class="white" href="https://www.facebook.com/tarciachandonodireito">/tarciachandonodireito</a></p>
-            <p><img src="src/img/icon-insta.png"> &nbsp;<a class="white" href="https://www.linkedin.com/">Linkedin</a></p>
-            <p><img src="src/img/icon-face.png"> &nbsp;<a class="white" href="https://www.youtube.com">Youtube</a></p>
+            <p><i class="fas fa-phone"></i> &nbsp;<a class="white" href="tel:81983358295">(81) 98335-8295</a></p>
+            <p><i class="far fa-envelope"></i> &nbsp;<a class="white" href="mailto:tarciana.figueireddo@gmail.com">tarciana.figueireddo@gmail.com</a></p>
+            <p><i class="fab fa-instagram"></i> &nbsp;<a class="white" href="https://www.instagram.com/tarciana.figueiredo/">@tarciana.figueiredo</a> / <a class="white" href="https://www.instagram.com/tfadvconsultoria/">@tfadvconsultoria</a></p>
+            <p><i class="fab fa-facebook-square"></i> &nbsp;<a class="white" href="https://www.facebook.com/tarciachandonodireito">/tarciachandonodireito</a></p>
+            <p><i class="fab fa-linkedin"></i> &nbsp;<a class="white" href="https://www.linkedin.com/">Linkedin</a></p>
+            <p><i class="fab fa-youtube"></i> &nbsp;<a class="white" href="https://www.youtube.com">Youtube</a></p>
           </div>
           </div>
 

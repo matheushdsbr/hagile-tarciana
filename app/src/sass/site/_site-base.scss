@@ -10,6 +10,15 @@ body {
   font-family: "Maven Pro", sans-serif;
 }
 
+@font-face {
+  font-family: "minion-pro";
+  src: url("../fonts/minion-pro.otf");
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -17,6 +26,14 @@ body {
 .reset {
   margin: 0;
   padding: 0;
+}
+
+.navbar-brand {
+  width: 75%;
+}
+
+.border-wine {
+  border-top: 15px solid $wine;
 }
 
 .border-line {
@@ -42,9 +59,8 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
-  .vertical-center {
-    display: flex;
-    justify-content: center;
+  .border-white {
+    border-left: 3px solid $white;
   }
 }
 

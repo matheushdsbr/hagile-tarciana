@@ -8125,9 +8125,12 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   background-color: #fff;
   color: #41171b;
-  font-size: 16px; }
+  font-size: 16px;
+  transition: all 0.4s ease-in-out; }
   .button:hover {
-    color: #41171b; }
+    color: #41171b;
+    transform: translateX(15px);
+    transition: all 0.4s ease-in-out; }
   .button.inverted {
     background-color: #41171b;
     color: #fff; }
@@ -8243,12 +8246,25 @@ textarea {
 body {
   font-family: "Maven Pro", sans-serif; }
 
+@font-face {
+  font-family: "minion-pro";
+  src: url("../fonts/minion-pro.otf"); }
+
+a:hover {
+  text-decoration: none; }
+
 .width-100 {
   width: 100%; }
 
 .reset {
   margin: 0;
   padding: 0; }
+
+.navbar-brand {
+  width: 75%; }
+
+.border-wine {
+  border-top: 15px solid #41171b; }
 
 .border-line {
   margin: 60px 0; }
@@ -8265,9 +8281,8 @@ body {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .vertical-center {
-    display: flex;
-    justify-content: center; } }
+  .border-white {
+    border-left: 3px solid #fff; } }
 
 /* Large devices (large desktops, 1200px and up) */
 /*
@@ -8296,41 +8311,18 @@ footer {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
-.container-color {
-  width: 100%;
-  height: 18px;
-  background-color: #41171b; }
-
-header img {
-  display: flex;
-  justify-content: flex-end; }
-
-header .logo-nome {
-  margin-top: 20px;
-  color: #6e5051; }
-  header .logo-nome h1,
-  header .logo-nome h2 {
-    font-weight: bold; }
-  header .logo-nome h1 {
-    font-size: 23px;
-    letter-spacing: 3px; }
-  header .logo-nome h2 {
-    font-size: 16px; }
-
-header .nav-header ul {
+.nav-header ul {
   display: flex; }
-  header .nav-header ul li {
+  .nav-header ul li {
     list-style: none; }
 
-header .nav-header a {
+.nav-header a {
   padding: 12px;
   color: #6e5051;
   font-weight: 700;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   font-size: 20px; }
-  header .nav-header a:hover {
-    border-bottom: 1px solid #41171b; }
 
 .header {
   background-repeat: no-repeat;
@@ -8346,11 +8338,9 @@ header .nav-header a {
   .header .header-content-position {
     margin-bottom: 250px; }
   .header h1 {
-    font-size: 60px;
-    font-family: "Maven Pro", sans-serif; }
+    font-size: 60px; }
   .header p {
-    width: 75%;
-    font-family: "Maven Pro", sans-serif; }
+    width: 75%; }
   .header a {
     padding: 10px 15px;
     font-weight: bold; }
@@ -8358,6 +8348,10 @@ header .nav-header a {
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-header a:hover {
+    border-bottom: 1px solid #41171b; } }
+
 /* Large devices (large desktops, 1200px and up) */
 /*
  * 
@@ -8388,9 +8382,10 @@ header .nav-header a {
 .sobre {
   color: #41171b;
   padding: 30px;
-  margin-bottom: -45px; }
-  .sobre h2 {
-    font-size: 20px; }
+  margin-bottom: -45px;
+  /*h2 {
+    font-size: 20px;
+  }*/ }
   .sobre span {
     font-size: 40px; }
   .sobre .border-image {
@@ -8410,6 +8405,11 @@ header .nav-header a {
       transform: translate(10%, 7%); }
   .sobre .text-sobre {
     margin-top: 50px; }
+    .sobre .text-sobre i {
+      color: #eee;
+      font-size: 3.8rem; }
+    .sobre .text-sobre .text-footer {
+      font-family: "minion-pro", sans-serif; }
   .sobre .title-sobre {
     border-bottom: 1px solid #41171b;
     width: 20%; }
@@ -8509,6 +8509,12 @@ header .nav-header a {
     align-items: center;
     padding: 0 30px;
     height: 200px; }
+    .services .box img {
+      transition: all 0.4s ease-in-out; }
+    .services .box:hover img {
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.2);
+      margin-bottom: 8px; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -8522,33 +8528,20 @@ header .nav-header a {
 /* MOBILE STYLES ------------------------------------------------------------*/
 .solucao-trabalhista {
   background-image: url("../img/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 35px 0;
   color: white; }
-  .solucao-trabalhista .margin-top {
-    margin-top: 50px;
-    margin-bottom: 50px; }
-  .solucao-trabalhista h2 {
-    margin-bottom: 25px;
-    margin-top: 50px;
-    font-size: 30pt; }
   .solucao-trabalhista a {
     border: none;
     border-radius: 4px;
     padding: 10px 25px;
-    border: 1px solid white; }
+    border: 2px solid white; }
   .solucao-trabalhista .content-button {
     text-align: center; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .solucao-trabalhista .line {
-    margin: 25px;
-    border-left: 4px solid white;
-    height: 400px; }
-  .solucao-trabalhista h2 {
-    margin-top: 100px; }
-  .solucao-trabalhista .content-button {
-    text-align: initial; } }
-
 /* Large devices (large desktops, 1200px and up) */

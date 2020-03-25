@@ -8,24 +8,17 @@
 
 .solucao-trabalhista {
   background-image: url("../img/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 35px 0;
   color: white;
-
-  .margin-top {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  h2 {
-    margin-bottom: 25px;
-    margin-top: 50px;
-    font-size: 30pt;
-  }
 
   a {
     border: none;
     border-radius: 4px;
     padding: 10px 25px;
-    border: 1px solid white;
+    border: 2px solid white;
   }
 
   .content-button {
@@ -42,17 +35,6 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
   .solucao-trabalhista {
-    .line {
-      margin: 25px;
-      border-left: 4px solid white;
-      height: 400px;
-    }
-    h2 {
-      margin-top: 100px;
-    }
-    .content-button {
-      text-align: initial;
-    }
   }
 }
 

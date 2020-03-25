@@ -10,9 +10,9 @@
   color: #41171b;
   padding: 30px;
   margin-bottom: -45px;
-  h2 {
+  /*h2 {
     font-size: 20px;
-  }
+  }*/
 
   span {
     font-size: 40px;
@@ -37,6 +37,13 @@
   }
   .text-sobre {
     margin-top: 50px;
+    i {
+      color: #eee;
+      font-size: 3.8rem;
+    }
+    .text-footer {
+      font-family: "minion-pro", sans-serif;
+    }
   }
   .title-sobre {
     border-bottom: 1px solid #41171b;

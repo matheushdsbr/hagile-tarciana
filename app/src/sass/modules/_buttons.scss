@@ -11,9 +11,12 @@
   background-color: $white;
   color: $wine;
   font-size: 16px;
+  transition: $transition;
 
   &:hover {
     color: $wine;
+    transform: translateX(15px);
+    transition: $transition;
   }
 
   &.inverted {
