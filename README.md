@@ -1,6 +1,6 @@
 # Hagile - Matheus Henrique
 
-Project developed using Bootstrap, Gulp e SASS.
+Project developed using Yarn, Gulp, Bootstrap, e SASS.
 
 ## Installation
 
@@ -10,15 +10,19 @@ Project developed using Bootstrap, Gulp e SASS.
 git clone https://github.com/matheushenrique1/hagile.git
 ```
 
-#### 2 - Install dependencies
+#### 2 - Install Yarn
 
 ```
-npm install
+https://classic.yarnpkg.com/en/docs/install
 ```
 
-## Task Runner (Gulp)
+#### 2 - Install Dependencies
 
-#### 1 - gulp (watch)
+```
+yarn install
+```
+
+## How to Start (Yarn - Gulp)
 
 1.1 - Compiles the files SCSS
 
@@ -26,5 +30,5 @@ npm install
 http://localhost:3000/
 
 ```
-gulp watch
+yarn start
 ```
