@@ -14,6 +14,16 @@
   background-size: cover;
   padding: 50px 0px 80px 0px;
 
+  .service-texto {
+    color: $white;
+    padding: 26px;
+  }
+  a {
+    margin-top: 37px;
+    padding: 15px 60px;
+    font-weight: bold;
+  }
+
   .section-title {
     h2 {
       font-size: 45px;
@@ -36,6 +46,9 @@
       transform: scale(1.2);
       margin-bottom: 8px;
     }
+  }
+  .box-creditos {
+    height: 300px;
   }
 }
 
