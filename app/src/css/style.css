@@ -8478,9 +8478,11 @@ footer {
   .contact .info .border-gray {
     border: 2px solid gray;
     padding: 30px; }
-  .contact .info a:hover {
-    color: #fff;
-    text-decoration: underline; }
+  .contact .info a {
+    word-wrap: break-word; }
+    .contact .info a:hover {
+      color: #fff;
+      text-decoration: underline; }
 
 /*
  * 
