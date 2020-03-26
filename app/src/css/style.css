@@ -8495,11 +8495,8 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   padding: 50px 0px 80px 0px; }
-  .services .section-title {
-    display: flex;
-    align-items: flex-end; }
-    .services .section-title h2 {
-      font-size: 45px; }
+  .services .section-title h2 {
+    font-size: 45px; }
   .services .box {
     text-align: center;
     font-weight: bold;
