@@ -9,6 +9,17 @@ function style() {
     .pipe(gulp.dest("app/src/css"))
     .pipe(browserSync.stream());
 }
+//copy bootstrap, jquery, popper.js
+function copyjs() {
+  return gulp
+    .src([
+      "node_modules/jquery/dist/jquery.js",
+      "node_modules/popper.js/dist/umd/popper.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js"
+    ])
+    .pipe(gulp.dest("app/src/js"));
+}
+//gulp-watch
 function watch() {
   browserSync.init({
     server: {
@@ -20,5 +31,7 @@ function watch() {
   gulp.watch("./app/*.html").on("change", browserSync.reload);
   gulp.watch("./js/**/*.js").on("change", browserSync.reload);
 }
+
 exports.style = style;
 exports.watch = watch;
+exports.copyjs = copyjs;
