@@ -23,10 +23,14 @@ yarn install
 ```
 
 ## How to Start (Yarn - Gulp)
+1 - Copy the js files
+```
+yarn copyjs
+```
 
-1.1 - Compiles the files SCSS
+2.1 - Compiles the files SCSS
 
-1.2 - Initializes the localhost server.
+2.2 - Initializes the localhost server.
 http://localhost:3000/
 
 ```
