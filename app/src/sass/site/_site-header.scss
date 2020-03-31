@@ -5,12 +5,25 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+.bg-logo {
+  &::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    width: 20%;
+    height: 100px;
+    left: 3%;
+    top: -8%;
+  }
+  img {
+    position: relative;
+  }
+}
+
 .nav-header {
   ul {
     display: flex;
-    li {
-      list-style: none;
-    }
   }
   a {
     padding: 12px;
@@ -60,6 +73,20 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .adjust-height {
+    height: 90px;
+  }
+  .width-auto {
+    width: auto;
+  }
+  .bg-logo {
+    &::before {
+      width: 5%;
+      left: 14px;
+      top: -12%;
+      height: 124%;
+    }
+  }
   .nav-header {
     a {
       &:hover {
