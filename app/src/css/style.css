@@ -455,6 +455,17 @@ footer {
     border-radius: 4px;
     padding: 10px 25px;
     border: 2px solid white; }
+  .solucao-trabalhista h4 {
+    transition: all 0.4s ease-in-out; }
+    .solucao-trabalhista h4:hover {
+      transform: translateX(25px);
+      transition: all 0.4s ease-in-out; }
+    .solucao-trabalhista h4 a {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      border: none;
+      color: #fff; }
   .solucao-trabalhista .content-button {
     text-align: center; }
 

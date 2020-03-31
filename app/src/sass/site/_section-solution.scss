@@ -21,6 +21,22 @@
     border: 2px solid white;
   }
 
+  h4 {
+    transition: $transition;
+
+    &:hover {
+      transform: translateX(25px);
+      transition: $transition;
+    }
+    a {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      border: none;
+      color: $white;
+    }
+  }
+
   .content-button {
     text-align: center;
   }
