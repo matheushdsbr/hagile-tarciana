@@ -19,6 +19,18 @@ a:hover {
   text-decoration: none;
 }
 
+.a-white {
+  a {
+    color: $white;
+  }
+}
+
+.a-wine {
+  a {
+    color: $wine;
+  }
+}
+
 .width-100 {
   width: 100%;
 }
