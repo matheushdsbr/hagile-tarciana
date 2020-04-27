@@ -5,6 +5,23 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+.text-name {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  h4 {
+    color: #492025;
+    font-size: 24px;
+  }
+  h5 {
+    color: #8c7475;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
 .bg-logo {
   &::before {
     content: "";
@@ -52,7 +69,7 @@
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   p {
@@ -69,6 +86,25 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
+  .header {
+    h1 {
+      font-size: 60px;
+    }
+  }
+  .adjust-height {
+    height: 90px;
+  }
+  .width-auto {
+    width: auto;
+  }
+  .bg-logo {
+    &::before {
+      width: 13%;
+      left: 14px;
+      top: -8%;
+      height: 138%;
+    }
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -81,21 +117,19 @@
   }
   .bg-logo {
     &::before {
-      width: 5%;
+      width: 9%;
       left: 14px;
       top: -12%;
       height: 124%;
-    }
-  }
-  .nav-header {
-    a {
-      &:hover {
-        border-bottom: 1px solid #41171b;
-      }
     }
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
+  .bg-logo {
+    &::before {
+      width: 5%;
+    }
+  }
 }
