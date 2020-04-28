@@ -5,6 +5,9 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+.teste {
+  display: flex;
+}
 .text-name {
   color: blue;
   display: flex;
@@ -14,12 +17,14 @@
   margin-left: 15px;
   h4 {
     color: #492025;
-    font-size: 24px;
+    font-size: 21px;
+    margin: 0;
   }
   h5 {
     color: #8c7475;
     font-weight: bold;
     font-size: 14px;
+    margin: 0;
   }
 }
 .bg-logo {
@@ -28,10 +33,10 @@
     background-color: #fff;
     position: absolute;
     z-index: 0;
-    width: 20%;
+    width: 28%;
     height: 100px;
     left: 3%;
-    top: -8%;
+    top: -5%;
   }
   img {
     position: relative;
@@ -83,7 +88,78 @@
 }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
-
+/* (iphone plus, 320px and up) */
+@media (min-width: $screen-sm-minnnnnn) {
+  .bg-logo {
+    &::before {
+      width: 35%;
+    }
+  }
+  .text-name {
+    h4 {
+      font-size: 17px;
+    }
+    h5 {
+      font-size: 11px;
+    }
+  }
+}
+/* (iphone plus, 360px and up) */
+@media (min-width: $screen-sm-minnnnn) {
+  .bg-logo {
+    &::before {
+      width: 30%;
+    }
+  }
+  .text-name {
+    h4 {
+      font-size: 21px;
+    }
+    h5 {
+      font-size: 13px;
+    }
+  }
+}
+/* (iphone plus, 375px and up) */
+@media (min-width: $screen-sm-minnnn) {
+  .bg-logo {
+    &::before {
+      width: 29%;
+    }
+  }
+  .text-name {
+    h4 {
+      font-size: 22px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+  }
+}
+/* (iphone plus, 411px and up) */
+@media (min-width: $screen-sm-minnn) {
+  .bg-logo {
+    &::before {
+      width: 26%;
+    }
+  }
+  .text-name {
+    h4 {
+      font-size: 24px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+}
+/* (iphone plus, 414px and up) */
+@media (min-width: $screen-sm-minn) {
+  .bg-logo {
+    &::before {
+      width: 25%;
+    }
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
   .header {
@@ -106,7 +182,6 @@
     }
   }
 }
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
   .adjust-height {
