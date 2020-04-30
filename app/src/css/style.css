@@ -157,9 +157,6 @@ a:hover {
 .navbar-brand {
   width: 75%; }
 
-.border-wine {
-  border-top: 15px solid #41171b; }
-
 .border-line {
   margin: 60px 0; }
   .border-line img {
@@ -208,9 +205,6 @@ footer {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
-.teste {
-  display: flex; }
-
 .text-name {
   color: blue;
   display: flex;
@@ -228,19 +222,6 @@ footer {
     font-size: 14px;
     margin: 0; }
 
-.bg-logo::before {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  z-index: 0;
-  width: 28%;
-  height: 100px;
-  left: 3%;
-  top: -5%; }
-
-.bg-logo img {
-  position: relative; }
-
 .nav-header ul {
   display: flex; }
 
@@ -254,7 +235,7 @@ footer {
 
 .header {
   background-repeat: no-repeat;
-  background: url("../img/banner1.png") no-repeat center center;
+  background: url("../img/banners/banner1.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -274,88 +255,75 @@ footer {
     font-weight: bold; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
-/* (iphone plus, 320px and up) */
-@media (min-width: 320px) {
-  .bg-logo::before {
-    width: 35%; }
-  .text-name h4 {
-    font-size: 17px; }
-  .text-name h5 {
-    font-size: 11px; } }
-
-/* (iphone plus, 360px and up) */
-@media (min-width: 360px) {
-  .bg-logo::before {
-    width: 30%; }
-  .text-name h4 {
-    font-size: 21px; }
-  .text-name h5 {
-    font-size: 13px; } }
-
-/* (iphone plus, 375px and up) */
-@media (min-width: 375px) {
-  .bg-logo::before {
-    width: 29%; }
-  .text-name h4 {
-    font-size: 22px; }
-  .text-name h5 {
-    font-size: 14px; } }
-
-/* (iphone plus, 411px and up) */
-@media (min-width: 411px) {
-  .bg-logo::before {
-    width: 26%; }
-  .text-name h4 {
-    font-size: 24px; }
-  .text-name h5 {
-    font-size: 15px; } }
-
-/* (iphone plus, 414px and up) */
-@media (min-width: 414px) {
-  .bg-logo::before {
-    width: 25%; } }
-
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .header h1 {
-    font-size: 60px; }
-  .adjust-height {
-    height: 90px; }
-  .width-auto {
-    width: auto; }
-  .bg-logo::before {
-    width: 13%;
-    left: 14px;
-    top: -8%;
-    height: 138%; } }
-
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .adjust-height {
-    height: 90px; }
-  .width-auto {
-    width: auto; }
-  .bg-logo::before {
-    width: 9%;
-    left: 14px;
-    top: -12%;
-    height: 124%; } }
-
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .bg-logo::before {
-    width: 5%; } }
-
 /*
  * 
  * Site > Nav
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
+.border-wine {
+  border-top: 15px solid #41171b; }
+  .border-wine .navbar-brand {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0px; }
+    .border-wine .navbar-brand .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .border-wine .navbar-brand .logo img {
+        margin-bottom: 10px; }
+      .border-wine .navbar-brand .logo .text-logo h1 {
+        color: #492025;
+        text-align: center;
+        font-size: 33px;
+        margin: 0; }
+      .border-wine .navbar-brand .logo .text-logo p {
+        color: #8c7475;
+        text-align: center;
+        margin: 0; }
+
+.button-teste {
+  background-color: #41171b; }
+
+.button-items-teste a {
+  color: #6e5051;
+  margin-left: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  font-size: 20px; }
+
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .border-wine .navbar-brand {
+    margin: 0; }
+    .border-wine .navbar-brand .bg-logo::before {
+      content: "";
+      background-color: #fff;
+      position: absolute;
+      z-index: 0;
+      width: 9%;
+      height: 119%;
+      left: 14px;
+      top: -9%; }
+    .border-wine .navbar-brand .logo {
+      flex-direction: row; }
+      .border-wine .navbar-brand .logo img {
+        margin-bottom: 0;
+        margin-right: 10px;
+        position: relative; } }
+
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .border-wine .navbar-brand .bg-logo::before {
+    width: 4%; } }
+
 /*
  * 
  * Site > Sidebar
@@ -460,7 +428,7 @@ footer {
   font-size: 2.5em; }
 
 .contact .info {
-  background-image: url("../img/banner4.png");
+  background-image: url("../img/banners/banner4.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -484,7 +452,7 @@ footer {
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
 .services {
-  background: url("../img/banner2.png") no-repeat center center fixed;
+  background: url("../img/banners/banner2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -498,6 +466,7 @@ footer {
     padding: 15px 60px;
     font-weight: bold; }
   .services .section-title h2 {
+    color: #fff;
     font-size: 45px; }
   .services .box {
     text-align: center;
@@ -539,7 +508,7 @@ footer {
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
 .solucao-trabalhista {
-  background-image: url("../img/banner3.png");
+  background-image: url("../img/banners/banner3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

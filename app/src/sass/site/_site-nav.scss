@@ -5,6 +5,49 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+.border-wine {
+  border-top: 15px solid $wine;
+  .navbar-brand {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0px;
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        margin-bottom: 10px;
+      }
+      .text-logo {
+        h1 {
+          color: #492025;
+          text-align: center;
+          font-size: 33px;
+          margin: 0;
+        }
+        p {
+          color: #8c7475;
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.button-teste {
+  background-color: $wine;
+}
+.button-items-teste {
+  a {
+    color: #6e5051;
+    margin-left: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+  }
+}
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 
@@ -14,8 +57,42 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .border-wine {
+    .navbar-brand {
+      margin: 0;
+      .bg-logo {
+        &::before {
+          content: "";
+          background-color: #fff;
+          position: absolute;
+          z-index: 0;
+          width: 9%;
+          height: 119%;
+          left: 14px;
+          top: -9%;
+        }
+      }
+      .logo {
+        flex-direction: row;
+        img {
+          margin-bottom: 0;
+          margin-right: 10px;
+          position: relative;
+        }
+      }
+    }
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
+  .border-wine {
+    .navbar-brand {
+      .bg-logo {
+        &::before {
+          width: 4%;
+        }
+      }
+    }
+  }
 }
