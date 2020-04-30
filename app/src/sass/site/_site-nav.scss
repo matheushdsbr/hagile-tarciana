@@ -7,6 +7,11 @@
 /* MOBILE STYLES ------------------------------------------------------------*/
 .border-wine {
   border-top: 15px solid $wine;
+  .button-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
   .navbar-brand {
     width: 100%;
     padding: 0;
@@ -27,6 +32,7 @@
         }
         p {
           color: #8c7475;
+          font-weight: bold;
           text-align: center;
           margin: 0;
         }
@@ -36,7 +42,9 @@
 }
 
 .button-teste {
-  background-color: $wine;
+  background-color: $white;
+  border: 2px solid;
+  border-radius: 4px;
 }
 .button-items-teste {
   a {
@@ -79,6 +87,14 @@
           margin-right: 10px;
           position: relative;
         }
+        .text-logo {
+          h1 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
       }
     }
   }
@@ -90,7 +106,7 @@
     .navbar-brand {
       .bg-logo {
         &::before {
-          width: 4%;
+          width: 5%;
         }
       }
     }
