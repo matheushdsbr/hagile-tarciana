@@ -7,7 +7,7 @@
 /* MOBILE STYLES ------------------------------------------------------------*/
 
 .services {
-  background: url("../img/banner2.png") no-repeat center center fixed;
+  background: url("../img/banners/banner2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,6 +26,7 @@
 
   .section-title {
     h2 {
+      color: $white;
       font-size: 45px;
     }
   }

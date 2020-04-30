@@ -24,21 +24,6 @@
     margin: 0;
   }
 }
-.bg-logo {
-  &::before {
-    content: "";
-    background-color: #fff;
-    position: absolute;
-    z-index: 0;
-    width: 28%;
-    height: 100px;
-    left: 3%;
-    top: -5%;
-  }
-  img {
-    position: relative;
-  }
-}
 
 .nav-header {
   ul {
@@ -56,7 +41,7 @@
 
 .header {
   background-repeat: no-repeat;
-  background: url("../img/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
+  background: url("../img/banners/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -85,125 +70,14 @@
 }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
-/* (iphone plus, 320px and up) */
-@media (min-width: $screen-sm-minnnnnn) {
-  .bg-logo {
-    &::before {
-      width: 35%;
-    }
-  }
-  .text-name {
-    h4 {
-      font-size: 17px;
-    }
-    h5 {
-      font-size: 11px;
-    }
-  }
-}
-/* (iphone plus, 360px and up) */
-@media (min-width: $screen-sm-minnnnn) {
-  .bg-logo {
-    &::before {
-      width: 30%;
-    }
-  }
-  .text-name {
-    h4 {
-      font-size: 21px;
-    }
-    h5 {
-      font-size: 13px;
-    }
-  }
-}
-/* (iphone plus, 375px and up) */
-@media (min-width: $screen-sm-minnnn) {
-  .bg-logo {
-    &::before {
-      width: 29%;
-    }
-  }
-  .text-name {
-    h4 {
-      font-size: 22px;
-    }
-    h5 {
-      font-size: 14px;
-    }
-  }
-}
-/* (iphone plus, 411px and up) */
-@media (min-width: $screen-sm-minnn) {
-  .bg-logo {
-    &::before {
-      width: 26%;
-    }
-  }
-  .text-name {
-    h4 {
-      font-size: 24px;
-    }
-    h5 {
-      font-size: 15px;
-    }
-  }
-}
-/* (iphone plus, 414px and up) */
-@media (min-width: $screen-sm-minn) {
-  .bg-logo {
-    &::before {
-      width: 25%;
-    }
-  }
-}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
-  .header {
-    h1 {
-      font-size: 60px;
-    }
-  }
-  .adjust-height {
-    height: 90px;
-  }
-  .width-auto {
-    width: auto;
-  }
-  .bg-logo {
-    &::before {
-      width: 13%;
-      left: 14px;
-      top: -8%;
-      height: 138%;
-    }
-  }
-  .teste {
-  }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
-  .adjust-height {
-    height: 90px;
-  }
-  .width-auto {
-    width: auto;
-  }
-  .bg-logo {
-    &::before {
-      width: 9%;
-      left: 14px;
-      top: -12%;
-      height: 124%;
-    }
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
-  .bg-logo {
-    &::before {
-      width: 5%;
-    }
-  }
 }
