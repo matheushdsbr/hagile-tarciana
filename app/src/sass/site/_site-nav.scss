@@ -27,13 +27,14 @@
         h1 {
           color: #492025;
           text-align: center;
-          font-size: 33px;
+          font-size: 29px;
           margin: 0;
         }
         p {
           color: #8c7475;
           font-weight: bold;
           text-align: center;
+          font-size: 17px;
           margin: 0;
         }
       }
@@ -61,11 +62,28 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
+  .border-wine {
+    .navbar-brand {
+      .logo {
+        .text-logo {
+          h1 {
+            font-size: 33px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
   .border-wine {
+    .navbar {
+      height: 74px;
+    }
     .navbar-brand {
       margin: 0;
       .bg-logo {
@@ -75,9 +93,9 @@
           position: absolute;
           z-index: 0;
           width: 9%;
-          height: 119%;
-          left: 14px;
-          top: -9%;
+          height: 143%;
+          left: 15px;
+          top: -20%;
         }
       }
       .logo {
@@ -107,6 +125,7 @@
       .bg-logo {
         &::before {
           width: 5%;
+          left: 13px;
         }
       }
     }
