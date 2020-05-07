@@ -92,10 +92,10 @@ input[type="tel"],
 textarea {
   width: 100%;
   box-sizing: border-box;
-  color: #41171b;
-  background-color: #f3f3f3;
+  color: #000;
+  background-color: #fff;
   border: none;
-  border-bottom: 1px solid #41171b;
+  border-bottom: 1px solid #000;
   padding: 10px 15px;
   margin-bottom: 10px;
   display: block; }
@@ -483,44 +483,52 @@ footer {
     color: #fff;
     padding: 26px; }
   .services a {
+    font-weight: bold;
     margin-top: 37px;
-    padding: 15px 60px;
-    font-weight: bold; }
+    padding: 15px 60px; }
   .services .section-title h2 {
     color: #fff;
     font-size: 45px; }
   .services .box {
-    text-align: center;
-    font-weight: bold;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    font-weight: bold;
+    height: 200px;
     justify-content: center;
-    align-items: center;
     padding: 0 30px;
-    height: 200px; }
+    text-align: center;
+    transition: all 0.3s ease-in-out; }
     .services .box a {
-      margin: 0;
-      padding: 0;
+      align-items: center;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-self: center; }
+      justify-self: center;
+      margin: 0;
+      padding: 0; }
     .services .box img {
+      margin-bottom: 20px;
       transition: all 0.4s ease-in-out;
-      width: 50px;
-      margin-bottom: 10px; }
+      width: 50px; }
     .services .box:hover img {
-      transition: all 0.4s ease-in-out;
+      margin-bottom: 20px;
       transform: scale(1.2);
-      margin-bottom: 10px; }
+      transition: all 0.4s ease-in-out; }
   .services .box2 {
-    text-align: center;
     font-weight: bold;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    text-align: center; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .box:hover {
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    margin-top: -10px; } }
+
 /* Large devices (large desktops, 1200px and up) */
 /*
  * 
