@@ -12,10 +12,10 @@ input[type="tel"],
 textarea {
   width: 100%;
   box-sizing: border-box;
-  color: #41171b;
-  background-color: #f3f3f3;
+  color: $black;
+  background-color: $white;
   border: none;
-  border-bottom: 1px solid #41171b;
+  border-bottom: 1px solid $black;
   padding: 10px 15px;
   margin-bottom: 10px;
   display: block;
