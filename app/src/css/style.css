@@ -3,11 +3,6 @@
  * Modules > Variables
  * 
  */
-/*
- * 
- * Modules > Buttons
- * 
- */
 .button {
   border: none;
   text-align: center;
@@ -17,20 +12,13 @@
   font-size: 16px;
   transition: all 0.4s ease-in-out; }
   .button:hover {
-    color: #41171b;
-    transform: translateX(15px);
-    transition: all 0.4s ease-in-out; }
+    color: #41171b; }
   .button.inverted {
     background-color: #41171b;
     color: #fff; }
   .button.bg-inverted {
     background-color: #41171b; }
 
-/*
- * 
- * Form > Buttons
- * 
- */
 #formulario .btn_submit {
   background-color: #41171b;
   color: white;
@@ -43,6 +31,15 @@
     color: #41171b;
     font-weight: bold; }
 
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .button:hover {
+    transform: translateX(15px);
+    transition: all 0.4s ease-in-out; } }
+
+/* Large devices (large desktops, 1200px and up) */
 /*
  * 
  * Modules > Colors
