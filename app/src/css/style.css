@@ -492,7 +492,7 @@ footer {
     padding: 26px;
   }*/ }
   .services .row {
-    flex-direction: row; }
+    flex-direction: column; }
     .services .row a {
       font-weight: bold;
       margin-top: 37px;
@@ -505,6 +505,8 @@ footer {
     .services .row .box-shadow {
       transition: all 0.3s ease-in-out;
       opacity: 0.9; }
+      .services .row .box-shadow:hover {
+        opacity: 1; }
       .services .row .box-shadow .box {
         align-items: center;
         display: flex;
@@ -552,12 +554,13 @@ footer {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .services .row .box-shadow:hover {
-    -webkit-box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
-    margin-top: -10px;
-    opacity: 1; } }
+  .services .row {
+    flex-direction: row; }
+    .services .row .box-shadow:hover {
+      -webkit-box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 13px 5px -4px rgba(0, 0, 0, 0.3);
+      margin-top: -10px; } }
 
 /* Large devices (large desktops, 1200px and up) */
 /*
