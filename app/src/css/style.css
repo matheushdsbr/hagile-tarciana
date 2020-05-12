@@ -231,7 +231,7 @@ footer {
   border-bottom: 1px solid transparent;
   font-size: 20px; }
 
-.header {
+.request-consulation {
   background-repeat: no-repeat;
   background: url("../img/banners/banner1.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -242,13 +242,13 @@ footer {
   display: flex;
   align-items: center;
   color: white; }
-  .header .header-content-position {
+  .request-consulation .header-content-position {
     margin-bottom: 250px; }
-  .header h1 {
+  .request-consulation h1 {
     font-size: 50px; }
-  .header p {
+  .request-consulation p {
     width: 75%; }
-  .header a {
+  .request-consulation a {
     padding: 10px 15px;
     font-weight: bold; }
 
@@ -544,30 +544,30 @@ footer {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
-.solucao-trabalhista {
+.solution-labor {
   background-image: url("../img/banners/banner3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 35px 0;
   color: white; }
-  .solucao-trabalhista a {
+  .solution-labor a {
     border: none;
     border-radius: 4px;
     padding: 10px 25px;
     border: 2px solid white; }
-  .solucao-trabalhista h4 {
+  .solution-labor h4 {
     transition: all 0.4s ease-in-out; }
-    .solucao-trabalhista h4:hover {
+    .solution-labor h4:hover {
       transform: translateX(25px);
       transition: all 0.4s ease-in-out; }
-    .solucao-trabalhista h4 a {
+    .solution-labor h4 a {
       border: none;
       border-radius: 0;
       padding: 0;
       border: none;
       color: #fff; }
-  .solucao-trabalhista .content-button {
+  .solution-labor .content-button {
     text-align: center; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
