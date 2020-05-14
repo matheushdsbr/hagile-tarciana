@@ -1,74 +1,39 @@
-/*
- * 
- * Site > Header
- * 
- */
-
 /* MOBILE STYLES ------------------------------------------------------------*/
-.text-name {
-  color: blue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 15px;
-  h4 {
-    color: #492025;
-    font-size: 21px;
-    margin: 0;
-  }
-  h5 {
-    color: #8c7475;
-    font-weight: bold;
-    font-size: 14px;
-    margin: 0;
-  }
-}
-
-.nav-header {
-  ul {
+.header {
+  .text-name {
+    color: blue;
     display: flex;
-  }
-  a {
-    padding: 12px;
-    color: #6e5051;
-    font-weight: 700;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    font-size: 20px;
-  }
-}
-
-.request-consulation {
-  background-repeat: no-repeat;
-  background: url("../img/banners/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 85vh;
-  display: flex;
-  align-items: center;
-  color: white;
-
-  .header-content-position {
-    margin-bottom: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    h4 {
+      color: #492025;
+      font-size: 21px;
+      margin: 0;
+    }
+    h5 {
+      color: #8c7475;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 0;
+    }
   }
 
-  h1 {
-    font-size: 50px;
-  }
-
-  p {
-    width: 75%;
-  }
-
-  a {
-    padding: 10px 15px;
-    font-weight: bold;
+  .nav-header {
+    ul {
+      display: flex;
+    }
+    a {
+      padding: 12px;
+      color: #6e5051;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      font-size: 20px;
+    }
   }
 }
-
 /* MEDIA QUERY ------------------------------------------------------------*/
 
 /* Small devices (tablets, 768px and up) */
@@ -76,6 +41,18 @@
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .header {
+    height: 90px;
+    &__main {
+      height: 90px;
+      &--fixed {
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+      }
+    }
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */

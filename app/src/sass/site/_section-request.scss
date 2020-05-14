@@ -1,0 +1,28 @@
+.request-consulation {
+  background-repeat: no-repeat;
+  background: url("../img/banners/banner1.png") no-repeat center center; //CAMINHO CORRETO PARA AS IMAGENS
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    width: 75%;
+  }
+
+  a {
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  .header-content-position {
+    margin-bottom: 250px;
+  }
+}

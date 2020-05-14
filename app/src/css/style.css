@@ -197,33 +197,28 @@ footer {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
-/*
- * 
- * Site > Header
- * 
- */
 /* MOBILE STYLES ------------------------------------------------------------*/
-.text-name {
+.header .text-name {
   color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: 15px; }
-  .text-name h4 {
+  .header .text-name h4 {
     color: #492025;
     font-size: 21px;
     margin: 0; }
-  .text-name h5 {
+  .header .text-name h5 {
     color: #8c7475;
     font-weight: bold;
     font-size: 14px;
     margin: 0; }
 
-.nav-header ul {
+.header .nav-header ul {
   display: flex; }
 
-.nav-header a {
+.header .nav-header a {
   padding: 12px;
   color: #6e5051;
   font-weight: 700;
@@ -231,30 +226,20 @@ footer {
   border-bottom: 1px solid transparent;
   font-size: 20px; }
 
-.request-consulation {
-  background-repeat: no-repeat;
-  background: url("../img/banners/banner1.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 85vh;
-  display: flex;
-  align-items: center;
-  color: white; }
-  .request-consulation .header-content-position {
-    margin-bottom: 250px; }
-  .request-consulation h1 {
-    font-size: 50px; }
-  .request-consulation p {
-    width: 75%; }
-  .request-consulation a {
-    padding: 10px 15px;
-    font-weight: bold; }
-
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    height: 90px; }
+    .header__main {
+      height: 90px; }
+      .header__main--fixed {
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        z-index: 1; } }
+
 /* Large devices (large desktops, 1200px and up) */
 /*
  * 
@@ -599,3 +584,23 @@ footer {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+.request-consulation {
+  background-repeat: no-repeat;
+  background: url("../img/banners/banner1.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white; }
+  .request-consulation h1 {
+    font-size: 50px; }
+  .request-consulation p {
+    width: 75%; }
+  .request-consulation a {
+    padding: 10px 15px;
+    font-weight: bold; }
+  .request-consulation .header-content-position {
+    margin-bottom: 250px; }
