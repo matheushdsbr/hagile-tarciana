@@ -317,20 +317,22 @@ footer {
     height: 74px; }
   .border-wine .navbar-brand {
     margin: 0; }
-    .border-wine .navbar-brand .bg-logo::before {
-      content: "";
-      background-color: #fff;
-      position: absolute;
-      z-index: 0;
-      width: 9%;
-      height: 143%;
-      left: 15px;
-      top: -20%; }
     .border-wine .navbar-brand .logo {
       flex-direction: row; }
+      .border-wine .navbar-brand .logo a {
+        position: relative; }
+        .border-wine .navbar-brand .logo a::before {
+          content: "";
+          background-color: #fff;
+          position: absolute;
+          z-index: 0;
+          width: 93%;
+          height: 110%;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%); }
       .border-wine .navbar-brand .logo img {
         margin-bottom: 0;
-        margin-right: 10px;
         position: relative; }
       .border-wine .navbar-brand .logo .text-logo h1 {
         font-size: 25px; }
@@ -338,29 +340,8 @@ footer {
         font-size: 15px; } }
 
 /* Large devices (large desktops, 1200px and 1366px) */
-@media (min-width: 1200px) {
-  .border-wine .navbar-brand .logo .text-logo {
-    margin-left: auto; }
-  .border-wine .navbar-brand .bg-logo::before {
-    width: 8%;
-    left: 11px; } }
-
 /* Large devices (large desktops, 1367px and up) */
-@media (min-width: 1367px) {
-  .border-wine .navbar-brand .logo .text-logo {
-    margin-left: 0; }
-  .border-wine .navbar-brand .bg-logo::before {
-    width: 6%;
-    left: 15px; } }
-
 /* Large devices (large desktops, 1600px and up) */
-@media (min-width: 1600px) {
-  .border-wine .navbar-brand .logo .text-logo {
-    margin-left: 0; }
-  .border-wine .navbar-brand .bg-logo::before {
-    width: 5%;
-    left: 13px; } }
-
 /*
  * 
  * Site > Sidebar
