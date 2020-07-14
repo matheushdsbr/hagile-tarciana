@@ -86,25 +86,31 @@
     }
     .navbar-brand {
       margin: 0;
-      .bg-logo {
-        &::before {
-          content: "";
-          background-color: #fff;
-          position: absolute;
-          z-index: 0;
-          width: 9%;
-          height: 143%;
-          left: 15px;
-          top: -20%;
-        }
-      }
+
       .logo {
         flex-direction: row;
+
+        a {
+          position: relative;
+
+          &::before {
+            content: "";
+            background-color: #fff;
+            position: absolute;
+            z-index: 0;
+            width: 93%;
+            height: 110%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
         img {
           margin-bottom: 0;
-          margin-right: 10px;
           position: relative;
         }
+
         .text-logo {
           h1 {
             font-size: 25px;
@@ -120,57 +126,14 @@
 
 /* Large devices (large desktops, 1200px and 1366px) */
 @media (min-width: $screen-md-min) {
-  .border-wine {
-    .navbar-brand {
-      .logo {
-        .text-logo {
-          margin-left: auto;
-        }
-      }
-      .bg-logo {
-        &::before {
-          width: 8%;
-          left: 11px;
-        }
-      }
-    }
-  }
 }
 
 /* Large devices (large desktops, 1367px and up) */
 @media (min-width: $screen-md-max) {
-  .border-wine {
-    .navbar-brand {
-      .logo {
-        .text-logo {
-          margin-left: 0;
-        }
-      }
-      .bg-logo {
-        &::before {
-          width: 6%;
-          left: 15px;
-        }
-      }
-    }
-  }
+
 }
 
 /* Large devices (large desktops, 1600px and up) */
 @media (min-width: $screen-lg-min) {
-  .border-wine {
-    .navbar-brand {
-      .logo {
-        .text-logo {
-          margin-left: 0;
-        }
-      }
-      .bg-logo {
-        &::before {
-          width: 5%;
-          left: 13px;
-        }
-      }
-    }
-  }
+
 }
