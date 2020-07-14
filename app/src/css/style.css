@@ -34,7 +34,7 @@
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .button:hover {
     transform: translateX(15px);
     transition: all 0.4s ease-in-out; } }
@@ -172,7 +172,7 @@ a:hover {
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .border-white {
     border-left: 3px solid #fff; } }
 
@@ -353,6 +353,14 @@ footer {
     width: 6%;
     left: 15px; } }
 
+/* Large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .border-wine .navbar-brand .logo .text-logo {
+    margin-left: 0; }
+  .border-wine .navbar-brand .bg-logo::before {
+    width: 5%;
+    left: 13px; } }
+
 /*
  * 
  * Site > Sidebar
@@ -411,7 +419,7 @@ footer {
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .sobre {
     margin-bottom: 0; }
     .sobre .text-sobre {
@@ -553,7 +561,7 @@ footer {
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .services .row {
     flex-direction: row; }
     .services .row .box-shadow:hover {
